@@ -604,6 +604,43 @@ body {
   position: absolute;
   top: 93.9%;
 }
+@media screen and (max-width: 1700px) {
+  .KhaSkins {
+    font-size: 60px;
+  }
+  .Texto_imagen {
+    font-size: 11px;
+  }
+  .Titulo_Mecha {
+    font-size: 80px;
+  }
+  .Texto_M {
+    font-size: 15px;
+    width: 30%;
+    left: 65%;
+  }
+  .tm {
+    font-size: 50px;
+  }
+  .dm {
+    font-size: 12px;
+  }
+  .centerv {
+    align-content: center center;
+    align-items: center center;
+  }
+  .dhm {
+    width: 50%;
+    font-size: 12px;
+    display: grid;
+    float: left;
+    position: relative;
+  }
+  .videos_habilidades {
+   float: left; 
+   align-content: center;
+  }
+}
 @media screen and (max-width: 1250px) {
   .TituloKha {
     font-size: 50px;
@@ -617,8 +654,63 @@ body {
   .grid_imagenes {
     display: flex;
   }
+  .Texto_imagen {
+    font-size: 10px;
+  }
 }
 
+@media screen and (max-width: 1150px) {
+  .Imagenes_expansibles {
+    display: none;
+  }
+  .Imagenes_skins {
+    cursor: default;
+  }
+  .KhaSkins {
+    font-size: 30px;
+    top: 1%;
+  }
+  .Texto_imagen {
+    font-size: 13px;
+    height: 80%;
+    top: 38%;
+    width: 97%;
+    left: 42%;
+  }
+  .Titulo_Mecha {
+    font-size: 30px;
+    height: 10%;
+  }
+  .Texto_M {
+    height: 45%;
+    width: 80%;
+    left: 10%;
+    top: 50%;
+  }
+  .tm {
+    font-size: 25px;
+  }
+  .dm {
+    width: 60%;
+  }
+  .keod {
+    left: 20%;
+    top: 65%;
+  }
+  .kod {
+    left: 20%;
+    height: 35%;
+  }
+  .kgld {
+    height: 35%;
+  }
+  .dhm {
+    font-size: 8px;
+  }
+  .footer {
+    font-size: 13px;
+  }
+}
 @media screen and (max-width: 700px) {
   .videos_flex {
     width: 130%;
@@ -641,8 +733,27 @@ body {
     width: 70%;
     height: 90%;
   }
+  .KhaSkins {
+    font-size: 20px;
+  }
+  .Texto_imagen {
+    font-size: 10px;
+    width: 98%;
+    height: 95%;
+    left: 42%;
+  }
+  .Texto_M {
+    font-size: 10px;
+  }
+  .footer {
+    font-size: 7px;
+  }
+  .bottom1 {
+    position: absolute;
+    bottom: 0%;
+  }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 455px) {
   .videos_flex {
     width: 100%;
   }
@@ -662,5 +773,25 @@ body {
   .cuadro {
     width: 70%;
     height: 90%;
+  }
+  .Texto_imagen {
+    font-size: 9px;
+  }
+  .tm {
+    font-size: 15px;
+  }
+  .dm {
+    font-size: 10px;
+    height: 45%;
+    width: 70%;
+  }
+  .keod {
+    top: 45%;
+  }
+  .kod {
+    top: 45%;
+  }
+  .margin {
+    font-size: 15px;
   }
 }
